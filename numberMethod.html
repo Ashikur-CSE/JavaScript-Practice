@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let x = 20;
+      x = x.toString();
+      console.log(x);
+
+      let name = "333";
+      let num = parseInt(name);
+      console.log(num);
+
+      let fNum = 9.56756;
+      z = fNum.toFixed(2);
+      console.log(z);
+
+      m = fNum.toExponential(4);
+      console.log(m);
+
+      n = fNum.toPrecision(3);
+      console.log(n);
+
+      k = name.valueOf();
+      console.log(k);
+
+      //   All Number Method
+      console.log("All Number Method");
+      console.log(Number("10000"));
+      console.log(Number("10.400"));
+      console.log(Number("Ashik"));
+      console.log(Number("20+30"));
+      console.log(Number(Date()));
+
+      //  Check If it number or not
+      console.log(Number.isInteger(55));
+      console.log(Number.isSafeInteger(598746339887246595));
+    </script>
+  </body>
+</html>
