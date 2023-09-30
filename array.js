@@ -52,5 +52,18 @@ console.log(fruits)
 
 
 //var sl = fruits.slice(2);
-var sl =  fruits.slice(1,4)
+var sl =  fruits.slice(1,4) //The method then selects elements from the start argument, and up to (but not including) the end argument.
 console.log(sl)
+
+
+//Array Sort Functions
+//By default, the sort() function sorts values as strings.
+var fol = ["Banana", "Orange", "Apple", "Mango"];
+const points2 = [40, 100, 1, 5, 25, 10];
+console.log(fol.sort());
+
+console.log(points2.sort(function(a,b){return a - b}));
+console.log(points2.sort(function(a,b){return b - a}));
+
+console.log(Math.max.apply(null, points2))
+console.log(Math.min.apply(null, points2))
