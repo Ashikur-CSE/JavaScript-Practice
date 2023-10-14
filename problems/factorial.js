@@ -32,3 +32,4 @@ function getFact(num){
 }
 var factWres= getFact(7);
 console.log("Factorial (while)  is: " + factWres);
+
