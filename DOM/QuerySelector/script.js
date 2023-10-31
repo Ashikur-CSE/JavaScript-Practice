@@ -9,3 +9,4 @@ var all = document.querySelectorAll('.blog');
 for (const item of all){
     item.style.fontSize = '30px'
 }
+
