@@ -1,5 +1,6 @@
 // way - 02
 //Alada kore Function create & call in HTML
+//Most Common
 function myName(){
     var name = document.getElementById("myName");
     name.innerText="Ashikur Rahman";
